@@ -1,0 +1,72 @@
+.App {
+min-height: 100vh;
+background-color: lightpink;
+}
+
+.search-form{
+min-height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search-bar{
+width: 50%;
+border:none;
+padding: 10px;
+
+}
+
+.recipes{
+
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+
+.search-button{
+background:lightcoral;
+border: none;
+padding: 10px 20px;
+
+}
+
+.topH{
+padding-top: 30px ;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: palevioletred;
+  font-family: fantasy;
+  font-size: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
